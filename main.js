@@ -10,11 +10,12 @@ if (login == 'Админ') {
 	else {
 		alert('Пароль неверен');
 	}
+} 
+ else if (login == null) { 
+  alert( 'Вход отменён' );
 }
 
-if (login != 'Админ'){
+else{
 	alert('Я вас не знаю');
 }
-
-
 
